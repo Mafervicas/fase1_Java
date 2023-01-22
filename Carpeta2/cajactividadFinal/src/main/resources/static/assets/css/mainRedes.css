@@ -1,0 +1,143 @@
+ body{
+    
+    background: #0f2537;
+    font-family: 'Courier Prime', monospace;
+    color: white;
+     
+}
+
+#navbarSupportedContent{
+    font-family: 'Comic Neue', cursive;
+    font-size:large;
+
+}
+
+
+
+#menu{
+    background-color: #eee;
+    padding: 10px;
+}
+
+#navbarSupportedContent{
+    text-align: right;
+}
+
+
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text{
+    color:white
+}
+
+
+*,
+::after,
+::before
+{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+#navbarSupportedContent{
+    font-family: 'Comic Neue', cursive;
+    font-size:large;
+
+}
+
+body{
+    /* width: 100%;
+    height: 100vh; */
+    background-size: cover;
+    background-position: center;
+}
+
+h5{
+    padding-top: 70px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+.galeria{
+    
+    width: 95%;
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-bottom: 200px;
+}
+
+img{
+    width: 200px;
+    margin-bottom: 50px;
+    padding: 20 px;
+    margin: 0 50px;
+    display: flex;
+    
+}
+
+form{
+    
+    padding: 0px 100px 0px 100px ;
+    font-family: 'Comic Neue', cursive;
+    font-size:large;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.barra{
+    content: '';
+    height: 2px;
+    width: 0%;
+    bottom: 0;
+    position: absolute;
+    background: #12c2e9;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f64f59, #c471ed, #12c2e9);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    transition: 0.3 ease all;
+    left: 0%;
+}
+
+button{
+    background: #B5838E;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #5f3d5b #c471ed, #B5838E);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #878787, #c471ed, #B5838E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border: none;
+    width: 20%;
+    height: 40px;
+    color: white;
+    border-radius: 40px;
+    margin: 5px auto;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+
+
+@media screen and (max-width: 1100px){
+    form{
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 600px){
+    form{
+        width: 60%;
+    }
+}
+@media screen and (max-width: 450px){
+    form{
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 300px){
+    form{
+        width: 100%;
+    }
+}

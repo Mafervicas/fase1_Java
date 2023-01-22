@@ -1,0 +1,57 @@
+body{
+    
+    background: #0f2537;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+     
+}
+
+h3{
+    padding-top: 40px;
+    padding-bottom: 20px;
+    text-align: center;
+    text-decoration: underline wavy rgb(223, 191, 191); 
+}
+
+h5{
+    text-align: center;
+   
+}
+
+
+#FormularioIngreso{
+    padding-bottom: 30px;
+    padding-top: 5px;
+    
+}
+
+#LinkAbajo {
+    color: rgb(223, 191, 191); 
+}
+#LinkAbajo:hover{
+    color:rgb(171, 132, 191)
+}
+
+#navbarSupportedContent{
+    font-family: 'Comic Neue', cursive;
+    font-size:large;
+
+}
+#navbarSupportedContent{
+    text-align: right;
+}
+
+/* navbar custom*/
+.navbar-custom{
+    background-color: #e36474;
+}
+
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text{
+    color:white
+}
+
+#BotonGuardar{
+    background-color: #5F2954;
+    border-color: #5F2954;
+}

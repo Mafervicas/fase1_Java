@@ -1,0 +1,112 @@
+                     /* FORMS */
+
+h4{
+    font-family: 'Oswald', sans-serif;
+}
+
+
+#Inicio{
+    font-family: 'Oswald', sans-serif;
+    color: white;
+}
+
+
+#Letras{
+    font-family: 'Comic Neue', cursive;
+    color: white;
+}
+
+#FondoForm{
+    background: #B5838E;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #5f3d5b #c471ed, #B5838E);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #878787, #c471ed, #B5838E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-family: 'Poppins', sans-serif;
+    /* color: aliceblue; */
+    width: 100%;
+    height: 657px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#BotonSub:hover{
+    background: #838db5;
+    color: #301e2e;
+}
+#BotonSub{
+    border-color: #838db5;
+    color: white;
+}
+
+                         /* PAGINA HOME */
+
+body{
+    
+    background: #0f2537;
+    font-family: 'Courier Prime', monospace;
+    color: white;
+     
+}
+hr{
+    color: #e36474;;
+    
+  }
+
+#navbarSupportedContent{
+    font-family: 'Comic Neue', cursive;
+    font-size:large;
+
+}
+
+
+form{
+    background-color: #0f2537;
+    margin: 0 auto;
+    width: 400px;
+    padding: 20px;
+}
+
+#menu{
+    background-color: #eee;
+    padding: 10px;
+}
+#menu ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: inline-block;
+    width: 100%;
+}
+#menu ul li{
+    display: inline;
+}
+#menu ul li a{
+    color: #1E69E3;
+    text-decoration: none;
+}
+
+
+#navbarSupportedContent{
+    text-align: right;
+}
+
+/* navbar custom*/
+.navbar-custom{
+    background-color: #e36474;
+}
+
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text{
+    color:white
+}
+
+.carousel-control-next{
+    background: transparent !important;
+    border: none;
+}
+
+.carousel-control-prev{
+    background: transparent !important;
+    border: none;
+}

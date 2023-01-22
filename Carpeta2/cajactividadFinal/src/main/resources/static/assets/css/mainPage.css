@@ -1,0 +1,71 @@
+              /* PAGINA HOME */
+
+body{
+    
+    background: #0f2537;
+    font-family: 'Courier Prime', monospace;
+    color: white;
+     
+}
+hr{
+    color: #e36474;;
+    
+  }
+
+#navbarSupportedContent{
+    font-family: 'Comic Neue', cursive;
+    font-size:large;
+
+}
+
+
+form{
+    background-color: #0f2537;
+    margin: 0 auto;
+    width: 400px;
+    padding: 20px;
+}
+
+#menu{
+    background-color: #eee;
+    padding: 10px;
+}
+#menu ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: inline-block;
+    width: 100%;
+}
+#menu ul li{
+    display: inline;
+}
+#menu ul li a{
+    color: #1E69E3;
+    text-decoration: none;
+}
+
+
+#navbarSupportedContent{
+    text-align: right;
+}
+
+/* navbar custom*/
+.navbar-custom{
+    background-color: #e36474;
+}
+
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text{
+    color:white
+}
+
+.carousel-control-next{
+    background: transparent !important;
+    border: none;
+}
+
+.carousel-control-prev{
+    background: transparent !important;
+    border: none;
+}
